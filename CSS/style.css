@@ -75,6 +75,7 @@ nav {
 
 .navbar .nav-item {
   margin: 0 0.5rem;
+  position: relative;
 }
 
 .navbar .nav-link {
@@ -102,9 +103,9 @@ p.qote {
   position: absolute;
   bottom: 0;
   height: 5px;
-  left: 8px;
+  left: 0;
   background-color: #ffc107;
-  width: 65px;
+  width: 100%;
   border-radius: 5px 5px 0 0;
   transition: 0.3s;
 }
